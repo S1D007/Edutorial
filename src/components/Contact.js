@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <>
-        <div className="container mx-auto pt-16">
+        <div id="contact" className="container mx-auto pt-16">
   <div className="lg:flex">
     <div className="xl:w-2/5 lg:w-2/5  py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
       <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
@@ -128,7 +128,7 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm leading-6 focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
+            className="focus:outline-none bg-gradient-to-r from-violet-700 to-purple-900 transition duration-150 ease-in-out hover:opacity-50  text-white px-8 py-3 text-sm leading-6 rounded-3xl "
           >
             Submit
           </button>

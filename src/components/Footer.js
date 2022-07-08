@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-        <div className="relative flex justify-start md:justify-center md:items-end ">
+        <div className="relative sm:mt-[-15rem] mt-2 flex justify-start md:justify-center md:items-end ">
   <img
     className="absolute dark:hidden object-cover top-10 h-full w-full xl:mt-10 z-0"
     src=""

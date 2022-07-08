@@ -8,7 +8,7 @@ function PricingTab() {
           <div className="py-12 px-6 mx-auto container">
             <div className="flex flex-col lg:items-center justify-center w-full">
               <h1 className="font-semibold text-gray-800 dark:text-white text-3xl md:text-4xl">
-                The Right Price for your <span className="bg-gradient-to-r sm:text-1xl m-2 text-2xl rounded-lg p-2 from-cyan-500 to-blue-900  text-white leading-loose ">
+                The Right Price for your <span className="bg-gradient-to-r sm:text-1xl m-2 text-2xl rounded-3xl p-2 from-violet-700 to-purple-900   text-white leading-loose ">
             Journey
             </span>
               </h1>

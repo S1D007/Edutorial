@@ -4,7 +4,9 @@ function Stats() {
   return (
     <>
       <h1 className="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 dark:text-white sm:mb-0 mb-12">
-        Our Happy Students <br className="md:block hidden" />
+        Our Happy <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 font-bold " >
+          Students
+        </span> <br className="md:block hidden" />
         All around the World
       </h1>
       <div className="md:mt-14 mt-4 relative sm:flex items-center justify-center">

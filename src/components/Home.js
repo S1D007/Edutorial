@@ -1,8 +1,8 @@
 import React from "react";
 import framework from "./resources/Framework.svg";
-import Content from "./Content"
+import Content from "./Content";
 import Pricing from "./Pricing";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Stats from "./Stats";
 import Newsletter from "./Newsletter";
 import FeaturesOfEdutorial from "./FeaturesOfEdutorial";
@@ -10,42 +10,50 @@ import Contact from "./Contact";
 import Learners from "./Learners";
 function Home() {
   return (
-    <>
-      <div className="Introduction sm:text-left text-center ">
-        <h1 className="sm:text-4xl  inline-block p-2 bg-gradient-to-r from-violet-600 to-cyan-600 opacity-90 rounded-lg  ">
-          INTRODUCING
-        </h1>
-        <div>
-          <h2 className="sm:text-2xl bg-gradient-to-r from-teal-500 to-green-500 sm:p-3 p-1  inline-block rounded sm:m-3 sm:mx-[5rem] mx-9 my-3  ">
-            A new Way of Learning
-          </h2>
+    <div className="">
+      <div className="Introduction sm:text-left  ">
+        <div className="sm:float-right sm:visible  ">
+          <img
+            width={400}
+            height={400}
+            src={framework}
+            className="float-right"
+            alt="ok"
+          />
         </div>
-        <div className="">
-          <h1
-            id="title"
-            className="sm:text-9xl text-5xl mt-10 mb-10 p-5 sm:p-12 bg-gradient-to-l from-rose-600 to-pink-800  float-right sm:mt-[100px] transition transform hover:-translate-y-10 motion-reduce:transition-none motion-reduce:hover:transform-none animate-bounce
-            sm:text-center flex justify-end sm:ml-0 mr-[-1rem]
-             "
-          >
-            EDUTORIAL
-          </h1>
+        <div className="sm:w-[45rem] w-auto mb-[20vw]">
+          <div id="intro-text" className="sm:text-7xl text-3xl sm:mt-[10rem]">
+            <div className="sm:w-3 sm:h-3  sm:bg-slate-400 rounded-3xl rotate-45 "></div>
+            <div className="sm:w-4 sm:h-4 sm:mx-3 sm:rounded-2xl sm:rotate-45 bg-rose-400 "></div>
+            <div className="sm:w-5 sm:h-5 sm:mx-8 sm:rounded-xl rsm:otate-45 bg-indigo-400"></div>
+            <h1 className="sm:ml-[2rem] sm:none  ">
+              Introducing a <br /> new way of learning
+            </h1>
+          </div>
+          <div className="sm:w-[45rem]"></div>
+          <p className="mt-5 sm:w-[45rem] sm:ml-[2rem] ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            eveniet veniam tempora id corporis, debitis maxime. Deleniti
+            molestiae, atque similique corrupti reprehenderit a eveniet
+            veritatis aliquam, dolore corporis fugit non.
+          </p>
+          <button className="p-2 px-7 bg-gradient-to-r from-violet-700 to-purple-900 mt-5 ml-5 rounded-3xl">
+            Get Started
+          </button>
         </div>
-        <div className="text-center mt-14">
-          <img width={500} height={500} src={framework} alt="ok" />
-        </div>
-        <hr className="mt-5" />
-        <Content/>
-        <Pricing/>
-        <FeaturesOfEdutorial/>
-        <Stats/>
-        <Learners/>
+        <Content />
+
+        <Pricing />
+        <FeaturesOfEdutorial />
+
+        <Stats />
+        {/* <hr className="sm:mt-0 mt-[-10rem] sm:mb-0 mb-[5rem]" /> */}
+        <Learners />
         {/* <Signup/> */}
-        <Contact/>
-        <Newsletter/>
-        <Footer/>
-        {/* <hr className="mt-5" /> */}
+        <Contact />
+        <Newsletter />
       </div>
-    </>
+    </div>
   );
 }
 
