@@ -2,7 +2,7 @@ import React from "react";
 
 function Stats() {
   return (
-    <>
+    <div data-aos="flip-right" >
       <h1 className="xl:text-5xl md:text-4xl text-2xl font-semibold leading-tight text-center text-gray-800 dark:text-white sm:mb-0 mb-12">
         Our Happy <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 font-bold " >
           Students
@@ -45,7 +45,7 @@ function Stats() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

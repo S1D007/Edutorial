@@ -2,7 +2,7 @@ import React from 'react'
 
 function FeaturesOfEdutorial() {
   return (
-    <div>
+    <div data-aos="flip-up" >
         <div className="pt-16">
   <div className="mb-[15rem]">
     <div className="max-w-8xl mx-auto container">

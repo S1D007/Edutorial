@@ -4,7 +4,7 @@ import price from "./resources/Price.svg";
 function Pricing() {
   return (
     <>
-      <div className="pricing">
+      <div data-aos="fade-left" className="pricing">
         <div className="title">
           <h1 className="text-center sm:mt-5 sm:text-5xl text-3xl  ">
             What <span >We </span>

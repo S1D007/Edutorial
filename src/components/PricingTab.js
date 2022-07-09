@@ -4,7 +4,7 @@ function PricingTab() {
   return (
     <div>
       <>
-        <section id="pricingTab" className="px-6 xl:px-0">
+        <section data-aos="zoom-in" id="pricingTab" className="px-6 xl:px-0">
           <div className="py-12 px-6 mx-auto container">
             <div className="flex flex-col lg:items-center justify-center w-full">
               <h1 className="font-semibold text-gray-800 dark:text-white text-3xl md:text-4xl">

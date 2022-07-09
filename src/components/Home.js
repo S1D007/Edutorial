@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="">
       <div className="Introduction sm:text-left  ">
-        <div className="sm:float-right sm:visible  ">
+        <div data-aos="fade-left" className="sm:float-right sm:visible  ">
           <img
             width={400}
             height={400}
@@ -21,7 +21,7 @@ function Home() {
             alt="ok"
           />
         </div>
-        <div className="sm:w-[45rem] w-auto mb-[20vw]">
+        <div data-aos="fade-right" className="sm:w-[45rem] w-auto mb-[20vw]">
           <div id="intro-text" className="sm:text-7xl text-3xl sm:mt-[10rem]">
             <div className="sm:w-3 sm:h-3  sm:bg-slate-400 rounded-3xl rotate-45 "></div>
             <div className="sm:w-4 sm:h-4 sm:mx-3 sm:rounded-2xl sm:rotate-45 bg-rose-400 "></div>

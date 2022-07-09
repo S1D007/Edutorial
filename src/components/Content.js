@@ -2,8 +2,8 @@ import React from "react";
 
 function Content() {
   return (
-    <div className="container">
-      <div id="educator" className="content mt-5 sm:mb-[15rem] mb-[5rem] transition-all">
+    <div className="">
+      <div id="educator" data-aos="fade-up-right" className="content mt-5 sm:mb-[15rem] mb-[5rem] transition-all">
         <h1 id="que" className="sm:text-5xl sm:mt-5 mt-3  text-3xl text-center">
           How we Will{" "}
           <span className=" text-transparent bg-clip-text bg-gradient-to-r from-cyan-700 to-purple-500 ">

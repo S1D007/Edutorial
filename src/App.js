@@ -7,7 +7,7 @@ function App() {
     <div id="containerr" className="" >
       <Navbar/>
       <div className='mt-5 m-14 max-w-none ' >
-        <Home/>
+        <Home  />
       </div>
         <Footer/>
     </div>

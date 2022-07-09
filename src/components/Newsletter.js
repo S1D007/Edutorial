@@ -3,7 +3,7 @@ import React from "react";
 function Newsletter() {
   return (
     <>
-      <div className=" container md:w-2/3 xl:w-auto mx-auto flex flex-col xl:items-stretch justify-between xl:flex-row mt-5 ">
+      <div data-aos="slide-up" className=" container md:w-2/3 xl:w-auto mx-auto flex flex-col xl:items-stretch justify-between xl:flex-row mt-5 ">
         <div className="xl:w-1/2 md:mb-14 xl:mb-0 relative h-auto flex items-center justify-center">
           <img
             src="https://cdn.tuk.dev/assets/components/26May-update/newsletter-1.png"
